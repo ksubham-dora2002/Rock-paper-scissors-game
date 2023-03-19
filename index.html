@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, labore.</p> -->
+    </header>
+    <div class="score-card">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You Win</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <!-- <img src="rock1.png" onclick="rockFunction()" height= "50px" alt="rock"> -->
+            <img src="rock1.png" height= "50px" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="paper.png" height= "60px" alt="rock">
+        </div>
+        <div class="choice" id="s">
+            <img src="scissor.png" height= "60px" alt="rock">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+
+    <script src="app.js"></script>
+    </body>
+</html>
